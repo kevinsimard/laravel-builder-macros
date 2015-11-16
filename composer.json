@@ -1,0 +1,21 @@
+{
+    "name": "kevinsimard/laravel-builder-macros",
+    "description": "Laravel builder macros for the Eloquent ORM",
+    "keywords": ["laravel", "builder", "macros", "eloquent", "orm"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Simard",
+            "email": "kev.simard@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Kevinsimard\\BuilderMacros": "src/"
+        }
+    },
+    "require": {
+        "illuminate/database": "5.1.18",
+        "illuminate/support": "5.1.*"
+    }
+}
