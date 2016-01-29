@@ -20,12 +20,12 @@ Add the service provider in ```config/app.php```
 ```
 
 ## Code Structure
-    ┌── src/
-    │   └── Kevinsimard/
-    │       └── BuilderMacros/
-    │           └── Providers/
-    │               └── OrderByRandomServiceProvider.php
+    ├── src
+    │   └── Kevinsimard
+    │       └── BuilderMacros
+    │           └── Providers
+    │               └── OrderByRandomServiceProvider.php
     ├── .gitattributes
     ├── .gitignore
-    ├── composer.json
-    └── README.md
+    ├── README.md
+    └── composer.json
