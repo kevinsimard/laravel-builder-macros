@@ -1,31 +1,31 @@
 # Laravel Builder Macros
-[![Code Climate](https://codeclimate.com/github/kevinsimard/laravel-builder-macros/badges/gpa.svg)](https://codeclimate.com/github/kevinsimard/laravel-builder-macros)
 
 ## Usage
+
 ### orderByRandom
+
 ```php
 User::orderByRandom()->first();
 User::where...->orderByRandom()->get();
 ```
 
 ## Installation
-Add the service provider in ```config/app.php```
 
-```php
-'providers' => [
-    ...
-    'Kevinsimard\BuilderMacros\Providers\OrderByRandomServiceProvider',
-    ...
-],
-```
+Add the `Kevinsimard\BuilderMacros\Providers\OrderByRandomServiceProvider`
+service provider in `config/app.php`.
 
 ## Code Structure
+
     ├── src
-    │   └── Kevinsimard
-    │       └── BuilderMacros
-    │           └── Providers
-    │               └── OrderByRandomServiceProvider.php
+    │   └── Providers
+    │       └── OrderByRandomServiceProvider.php
+    ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore
+    ├── LICENSE.txt
     ├── README.md
     └── composer.json
+
+## License
+
+This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

@@ -7,6 +7,9 @@ use Illuminate\Support\ServiceProvider;
 
 class OrderByRandomServiceProvider extends ServiceProvider
 {
+    /**
+     * @return void
+     */
     public function register()
     {
         Builder::macro('orderByRandom', function () {
