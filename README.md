@@ -11,8 +11,7 @@ User::where...->orderByRandom()->get();
 
 ## Installation
 
-Add the `Kevinsimard\BuilderMacros\Providers\OrderByRandomServiceProvider`
-service provider in `config/app.php`.
+Add the `Kevinsimard\BuilderMacros\Providers\OrderByRandomServiceProvider` service provider in `config/app.php`.
 
 ## Code Structure
 
