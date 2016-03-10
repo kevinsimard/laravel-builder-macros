@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 class OrderByRandomServiceProvider extends ServiceProvider
 {
     /**
-     * @return void
+     * {@inheritdoc}
      */
     public function register()
     {
