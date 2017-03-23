@@ -21,7 +21,7 @@ Add the `Kevinsimard\BuilderMacros\Providers\OrderByRandomServiceProvider` servi
     ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore
-    ├── LICENSE.txt
+    ├── LICENSE.md
     ├── README.md
     └── composer.json
 
